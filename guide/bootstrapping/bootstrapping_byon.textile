@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bootstrapping Cloudify in a Traditional Data Center
+title: Bootstrapping a Traditional Data Center [BYON]
 category: Bootstrapping
 publish: true
 abstract: Explains how to bootstrap Cloudify and deploy applications in a distributed environment utilizing existing servers that are not in the cloud
@@ -132,22 +132,18 @@ Cloudify can run in 2 different modes:
 
 <li>As mentioned above, the remote directory is configured in the cloud's groovy file (remoteDirectory in byon-cloud.groovy) and its default is /tmp/gs-files.</li>
 
-<li>When starting multiple machines, the script is executed in different threads running in parallel.</li>
-</h4>
+This topic provides instructions for bootstrapping Cloudify on a BYON cloud.
 
-h2. Multiple Templates Usage
+h2. Prerequisites
 
-Multiple templates can be used, allowing you to have separate pools for management services and for application services. The following shows an example of multiple templates defined in the configuration file.
-<script src="https://gist.github.com/2218678.js"> </script>
-The following shows corresponding services files using the APPLICATION_TEMPLATE template for provisioning application machines:
-<script src="https://gist.github.com/2343730.js?file=ServicewithTemplate3.groovy"></script>
+Before you bootstrap your BYON cloud, make sure that your environment meets all the minimum requirements. For more information, see "Bootstrapping Prerequisites":/guide/bootstrapping/bootstrapping_process#prereqs and "Configuring BYON":/guide/setup/configuring_byon.
 
-h1. Using the BYON Cloud Driver
+h2. Bootstrapping
 
-To bootstrap the BYON cloud driver, at the Cloudify shell prompt, type: *bootstrap-cloud* @byon@
+Bootstrapping a BYON cloud is extremely simple, just follow the "bootstrapping":/guide/bootstrapping/bootstrapping_process#boot procedure, typing the following command in step 2: *@bootstrap-cloud@* @byon@
 
-Once the Cloudify controller will be installed on the management machine, you can install your application using the *install-application* command as usual.
+h2(#tear). Teardown
 
-h2. Tearing Down the BYON Environment
+To shut down a BYON cloud environment, at the Cloudify shell prompt, type: *@teardown-cloud@* @byon@
 
-To shut down the BYON environment, at the Cloudify shell prompt, type: @teardown-cloud byon@
+h4(info). This uninstalls applications and shuts down all the management and service instance machines.
