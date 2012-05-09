@@ -5,7 +5,7 @@ category: Bootstrapping
 publish: true
 abstract: Explains how to bootstrap Cloudify on Amazon EC2
 pageord: 400
----
+--- 
 
 This topic provides instructions for bootstrapping Cloudify on Amazon EC2.
 

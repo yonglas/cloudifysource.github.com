@@ -5,7 +5,7 @@ category: Bootstrapping
 publish: true
 abstract: Explains how to bootstrap Cloudify on HP OpenStack Cloud
 pageord: 500
----
+--- 
 
 This topic provides instructions for bootstrapping Cloudify on HP OpenStack Cloud.
 

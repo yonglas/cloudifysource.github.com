@@ -5,7 +5,6 @@ category: Product Overview
 publish: true
 abstract: Architecture overview, design principles and key features of Cloudify
 pageord: 1
-
 ---
 
 h1. Introduction

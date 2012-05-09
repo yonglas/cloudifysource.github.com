@@ -5,7 +5,7 @@ category: Bootstrapping
 publish: true
 abstract: Explains the bootstrapping process
 pageord: 100
----
+--- 
 
 Cloudify uses a boostrapping process to provision machines for Cloudify management, and machines for services required to deploy applications.
 

@@ -5,7 +5,7 @@ category: Installation & Setup
 publish: true
 abstract: Explains how to configure HP OpenStack Cloud for Cloudify
 pageord: 600
----
+--- 
 
 This topic provides instructions for configuring HP OpenStack Cloud for Cloudify.
 

@@ -5,7 +5,7 @@ category: Installation & Setup
 publish: true
 abstract: Explains how to bootstrap Cloudify and deploy applications in a distributed environment utilizing existing servers that are not in the cloud
 pageord: 700
----
+--- 
 
 Cloudify can be configured to leverage your existing servers (virtualized or non-virtualized) that are not in the cloud for deploying and managing Cloudify services. This type of utilization of existing servers is referred to as "Bring Your Own Node" (BYON).
 

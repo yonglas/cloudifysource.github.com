@@ -5,7 +5,7 @@ category: Installation & Setup
 publish: true
 abstract: Explains how to configure Amazon EC2 for Cloudify
 pageord: 500
----
+--- 
 
 This topic provides instructions for configuring Amazon EC2 for Cloudify.
 

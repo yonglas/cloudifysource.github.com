@@ -5,7 +5,7 @@ category: Bootstrapping
 publish: true
 abstract: Explains how to bootstrap Cloudify on Windows Azure
 pageord: 301
----
+--- 
 
 This topic provides instructions for bootstrapping Cloudify on Windows Azure.
 

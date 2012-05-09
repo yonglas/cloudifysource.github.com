@@ -5,7 +5,7 @@ category: Installation & Setup
 publish: true
 abstract: Describes the post-installation tasks that you should complete after installing the Cloudify shell
 pageord: 300
----
+--- 
 
 This topic describes the post-installation tasks that you should complete after "installing the Cloudify shell":/guide/setup/installing_the_cloudify_client. The post-installation tasks will prepare you for bootstrapping clouds and deploying applications.
 

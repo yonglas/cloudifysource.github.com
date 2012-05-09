@@ -5,7 +5,7 @@ category: Reference
 publish: true
 abstract: Lists the available Cloudify shell commands, and how to use them
 pageord: 300
----
+--- 
 
 h2. Summary
 

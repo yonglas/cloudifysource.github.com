@@ -5,7 +5,7 @@ cat: Getting Started
 publish: true
 abstract: A quick start guide to help you get started with Cloudify. Start here if you're new to Cloudify
 pageord: 100
----
+--- 
 
 h1. Introduction
 

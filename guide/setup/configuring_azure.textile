@@ -5,7 +5,7 @@ cat: Installation & Setup
 publish: true
 abstract: Explains how to configure Windows Azure for Cloudify
 pageord: 400
----
+--- 
 
 This topic provides instructions for configuring Windows Azure for Cloudify.
 
